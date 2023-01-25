@@ -515,6 +515,8 @@ section {
   filter: grayscale(0);
   transform: scale(1.1);
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.8);
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .blogs .blog img {
   width: 100%;
