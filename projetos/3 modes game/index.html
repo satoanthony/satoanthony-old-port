@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 Modes Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <!--Start page-->
+        <div id="starting_page">
+            <h2>Guess the number</h2>
+            <ul>
+                <li class="active">Easy</li>
+                <li>Medium</li>
+                <li>Hard</li>
+            </ul>
+            <button id="start_game">Start Game</button>
+        </div>
+
+
+        <!--Main page-->
+        <div id="main_page">
+            <h4 id="guessValue">Min Guess = 0 | Max Guess = 10</h4>
+            <h2>Guess The Number</h2>
+            <input type="text" name="" id="user_input" placeholder="00">
+            <button id="guess">Guess</button>
+            <div id="hint">Guess the number & Get a Hint</div>
+            <div class="lifes_left">Lifes Left 02</div>
+        </div>
+
+        <!--inner page-->
+        <div id="winner">
+            <i class="fas fa-trophy"></i>
+            <h2>You Win</h2>
+            <h2 class="lifes_left final_lifes">Lifes Left <b>02</b></h2>
+            <button class="quit">Quit</button>
+        </div>
+        
+        <!--Loser Page-->
+        <div id="loser">
+            <i class="far fa-sad-tear"></i>
+            <h2>You Lose</h2>
+            <h2 class="lifes_left final_lifes">Lifes Left <b>02</b></h2>
+            <button class="quit">Quit</button>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
