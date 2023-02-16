@@ -310,12 +310,12 @@ section {
                         transition: all .4s ease-in-out;
                         width: 60%;
                     }
-                    .html { width: 80%; }
-                    .css { width: 90%; }
-                    .js { width: 5%; }
+                    .html { width: 100%; }
+                    .css { width: 95%; }
+                    .js { width: 25%; }
                     .react{ width: 0%; }
-                    .node{ width: 10%; }
-                    .python{ width: 1%; }
+                    .node{ width: 0%; }
+                    .typescript{ width: 0%; }
                 }
             }
         }
