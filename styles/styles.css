@@ -118,6 +118,7 @@ section {
   justify-content: center;
   align-items: center;
   margin: 0.7rem 0;
+  transition: all 0.4s ease-in-out;
   box-shadow: var(--box-shadow-1);
 }
 .controls .control i {
@@ -131,6 +132,10 @@ section {
 }
 .controls .active-btn i {
   color: var(--color-white);
+}
+
+.control:hover {
+  transform: rotate(45deg);
 }
 
 .theme-btn {

@@ -118,6 +118,7 @@ section {
         justify-content: center;
         align-items: center;
         margin: .7rem 0;
+        transition: all .4s ease-in-out;
         box-shadow: var(--box-shadow-1) ;
         i {
             font-size: 1.2rem;
@@ -131,6 +132,15 @@ section {
         i { color: var(--color-white); }
     }
 }
+
+
+
+.control:hover{
+    transform:rotate(45deg);
+}
+
+
+
 
 .theme-btn {
     top: 5%;
