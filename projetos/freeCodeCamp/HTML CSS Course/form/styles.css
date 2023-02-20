@@ -1,0 +1,23 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+    background-color: antiquewhite;
+    
+    
+}
+
+body{
+    
+    padding: 2px;
+}
+
+#title{
+    align-items: center;
+    justify-content: center;
+}
+#title:hover{
+    cursor: crosshair;
+    color: aquamarine;
+}
+
+

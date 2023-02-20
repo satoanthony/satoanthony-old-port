@@ -1,0 +1,71 @@
+html{
+  scroll-behavior: smooth;
+}
+*{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:antiquewhite;
+  justify-content: center;
+  align-items: center;
+  line-height: 2rem;
+}
+#navbar{
+  background-color: black;
+  color: black;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+header{
+  display: block;
+  color: aliceblue;
+  
+  
+}
+:first-of-type header{
+  display: block;
+  color: aliceblue;
+  padding: 18px 20px;
+  text-decoration: dashed;
+}
+body{
+  background-image: url('https://steamcdn-a.akamaihd.net/apps/csgo/blog/images/wallpaper_nologo.jpg');
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  text-align-last: center;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #363636;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #7a7a7a;
+  color: rgb(4, 4, 121);
+}
+
+.tips, .ul{
+  list-style: armenian;
+}
+@media only screen and (max-width: 600px) {
+    header{box-sizing: border-box;}
+  }

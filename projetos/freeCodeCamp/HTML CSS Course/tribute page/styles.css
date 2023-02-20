@@ -1,0 +1,55 @@
+*{
+  margin: auto;
+  width: 90%;
+  background-color: rgb(93, 110, 121);
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    position: center
+  }
+
+#main{
+  display:grid
+
+}
+
+#title{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  font-size: 70px;
+  background-color: linear-gradient(#4fdbdb, #498181);
+  padding: 10px;
+  }
+
+  #title:hover{
+    cursor:none;
+    transform:scale(50%);
+  }
+
+  #img-caption{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #tribute-info{
+    display: flex;
+    text-align: center;
+  }
+
+  #history{
+    text-align:justify;
+  }
+
+  #tribute-link{
+    text-align: center;
+    color:aqua;
+    padding: 0lvh;
+  }

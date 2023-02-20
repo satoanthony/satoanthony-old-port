@@ -1,0 +1,5 @@
+#nav-bar{
+    position:fixed;
+    z-index: 999;
+    display: flex;
+  }
