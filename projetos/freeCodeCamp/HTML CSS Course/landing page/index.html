@@ -6,27 +6,55 @@
   <title>Product Landing Page</title>
   <link rel="stylesheet" href="styles.css">
 </head>
+<div class="header">
 <header id="header" style="position: fixed;">Product Landing Page
+  <div class="navbar">
     <nav id="nav-bar">
-      <a class="nav-link" href="#header">Products</a>
-      <a class="nav-link" href="#form">Materials</a>
-      <a class="nav-link" href="#header-img">Pricing</a>
+      <a class="nav-link" href="#video">Video</a>
+      <a class="nav-link" href="#products">Products</a>
+      <a class="nav-link" href="#materials">Materials</a>
+      <a class="nav-link" href="#pricing">Pricing</a>
     </nav>
+  </div>
+</div>
 <body>
-    <img src="" alt="header img" id="header-img"/>
+    <img src="https://cdn11.bigcommerce.com/s-fg272t4iw0/images/stencil/1280x1280/products/7406/7659/C-17456__70793.1557818828.jpg?c=2" alt="header img" id="header-img"/>
   </header>
-  <video id="video" width="" height="" controls>
-      <source src="" type="">
-    </video>
+<div class="video">
+  <h2>Official Video</h2>
+  <video id="video"  width="600" height="400" controls>
+      <source src="https://www.youtube.com/watch?v=xKWGvIM6iIo&ab_channel=SABIANCymbals" type="">
+  </video>
+</div>
+<hr>
+<h2>Register your email to be alerted of availability</h2>
+  <div class="form">
     <form id="form" action="https://www.freecodecamp.com/email-submit">
-      <input name="email" type="email" id="email" placeholder="your@email.here" >
+      <p>Register your email for avaiability</p><input name="email" type="email" id="email" placeholder="your@email.here" >
       <input type="submit" id="submit">
     </form>
+  </div>
+  <hr>
 </body>
 <main>
-  <div class="products">Products</div>
-  <div class="materials">Materials</div>
-  <div class="pricing">Pricing</div>
+  <div class="products">
+    <h2>Product</h2>
+    <div class="product-img">
+    <img class="product-img" src="https://cdnbatera.bateraclube.com.br/files/122/PROD_130730090314.jpg">
+    </div>
+    <h2>Presenting Neil Peart's 22" Paragon Ride</h2>
+    <p>AT A GLANCE
+      Extra-heavy model (8+ lbs!) with solid hand hammered bell, this model puts out robust, clear-cutting stick definition with a balanced blend of tone.</p>
+  </div>
+  <div class="materials">
+    <h2>Materials</h2>
+    <h3>Bronze B20</h3>
+    <p>Created using the highest grade of metal, this ensures this Ride Cymbal to have the best tonality possible.</p>
+  </div>
+  <div class="pricing">
+    <h2>Pricing</h2>
+    <p>Price U$ 400.00</p>
+  </div>
 </main>
-<footer>All rights reserved</footer>
+<footer>All rights reserved to Sabian.Inc - All images, videos and text are being used for the sole purpose of learning</footer>
 </html>

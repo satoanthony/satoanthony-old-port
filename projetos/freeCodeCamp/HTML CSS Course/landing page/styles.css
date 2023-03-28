@@ -1,0 +1,72 @@
+*{
+  color:antiquewhite
+}
+h2, p{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer{
+  display: flex;
+  justify-content: right;
+}
+
+#header-img{
+  position: relative ;
+  display: flex;
+  position: inherit;
+  max-width: 6rem;
+  max-height: 6rem;
+}
+
+.navbar{
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  background-color: black;
+  color: black;
+  position: sticky;
+  z-index: 999;
+}
+
+.header{
+  color: aliceblue;
+  margin-top: 0;
+}
+
+body{
+  background-image: url('https://scontent.faru1-1.fna.fbcdn.net/v/t31.18172-8/12671707_10209481157931542_8777769417637671143_o.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8631f5&_nc_ohc=PERv6LMueKAAX_r3w63&_nc_ht=scontent.faru1-1.fna&oh=00_AfCMF7VgIfXkXiwZI50hhAkP6nptbPFDtA0s0bSs4j82Qw&oe=641C8BEE');
+  opacity: 0.75;
+  background-size: cover;
+  
+}
+
+.video{
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.form{
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+}
+
+.materials{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
